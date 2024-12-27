@@ -3,27 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Profile Picture Downloader</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Email Validator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Instagram Icon -->
-    <i class="fab fa-instagram instagram-icon"></i>
-
-    <!-- Main Container -->
     <div class="container">
-        <h2>Instagram Profile Picture Downloader</h2>
-        <input type="text" id="username" placeholder="Enter Instagram Username" />
-        <button onclick="fetchProfilePicture()">Download Profile Picture</button>
-        <p id="message"></p>
+        <h1>Email Validator</h1>
+        <p>Enter your email to check its validity:</p>
+        <input type="text" id="emailInput" placeholder="Enter your email" />
+        <button onclick="validateEmail()">Validate</button>
+        <p id="resultMessage"></p>
     </div>
-
-    <!-- Footer -->
     <footer>
-        Made by <strong>Tanjiro</strong> <span>❤️</span>
+        Made with ❤️ by Tanjiro
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
