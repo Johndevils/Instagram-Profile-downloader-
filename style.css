@@ -7,27 +7,20 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #ff7e5f, #feb47b);
-    color: white;
-}
-
-/* Instagram Icon Styling */
-.instagram-icon {
-    font-size: 40px;
-    margin: 20px 0;
     color: white;
 }
 
 /* Main Container Styling */
 .container {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 90%;
     max-width: 400px;
+    width: 90%;
     color: #333;
 }
 
@@ -35,7 +28,7 @@ body {
 input {
     width: 80%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin: 10px 0 20px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -56,20 +49,18 @@ button:hover {
     background-color: #feb47b;
 }
 
-/* Message Text Styling */
-p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
+/* Result Message Styling */
+#resultMessage {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
 }
 
 /* Footer Styling */
 footer {
-    text-align: center;
     margin-bottom: 10px;
     font-size: 14px;
     color: white;
-}
-footer span {
-    color: red;
+    text-align: center;
 }
